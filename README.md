@@ -8,10 +8,12 @@ A Model Context Protocol (MCP) server that provides Discord integration capabili
 ## Available Tools
 
 ### Server Information
+
 - `get_server_info`: Get detailed server information
 - `list_members`: List server members and their roles
 
 ### Message Management
+
 - `send_message`: Send a message to a channel
 - `read_messages`: Read recent message history
 - `add_reaction`: Add a reaction to a message
@@ -20,14 +22,17 @@ A Model Context Protocol (MCP) server that provides Discord integration capabili
 - `moderate_message`: Delete messages and timeout users
 
 ### Channel Management
+
 - `create_text_channel`: Create a new text channel
 - `delete_channel`: Delete an existing channel
 
 ### Role Management
+
 - `add_role`: Add a role to a user
 - `remove_role`: Remove a role from a user
 
 ### Webhook Management
+
 - `create_webhook`: Create a new webhook
 - `list_webhooks`: List webhooks in a channel
 - `send_webhook_message`: Send messages via webhook
@@ -54,6 +59,7 @@ npx -y @smithery/cli install @hanweg/mcp-discord --client claude
    - Invite the bot to your server using OAuth2 URL Generator
 
 2. Clone and install the package:
+
 ```bash
 # Clone the repository
 git clone https://github.com/hanweg/mcp-discord.git
@@ -70,6 +76,7 @@ uv pip install -e .
 ```
 
 3. Configure Claude Desktop (`%APPDATA%\Claude\claude_desktop_config.json` on Windows, `~/Library/Application Support/Claude/claude_desktop_config.json` on macOS):
+
 ```json
     "discord": {
       "command": "uv",
