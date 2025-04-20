@@ -69,7 +69,8 @@ cd mcp-discord
 uv venv
 .venv\Scripts\activate
 
-### If using Python 3.13+ - install audioop library: `uv pip install audioop-lts`
+### If using Python 3.13+ - install audioop library: 
+uv pip install audioop-lts
 
 # Install the package
 uv pip install -e .
